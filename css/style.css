@@ -1,0 +1,52 @@
+body{
+    margin: 0; /*to clear default settings*/
+    padding: 0;
+    font-family: 'Oswald', sans-serif; /*prettier, sans-serif is fallback*/
+}
+
+nav ul{
+    list-style: none; /*to clear default settings*/
+    background-color: #4a4a4f; /*top bar*/
+    text-align: center; /*horizontally centered*/
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    font-size: 1.2em; /*bit larger than default*/
+    line-height: 40px;
+    height: 40px; /*makes nav bar stand a bit higher*/
+    display: inline-block; /*to display next to each other for horizonal nav block*/
+    margin: 2.5%; /*for space*/
+}
+
+nav a{
+    text-decoration: none; /*switch off underlines on hyperlinks*/
+    color: #fff; 
+    display: block;
+}
+
+nav a:hover{
+    background-color: #fff; /*invert for contrast*/
+    color: #4a4a4a; /*invert for contrast*/
+}
+
+.card{
+    float: left; /*to appear in single row side-by-side*/
+    width: 20%;
+    margin-left: 10%;
+}
+
+.card a{
+    text-align: center;
+
+}
+
+img{
+    widows: 100%; /*relative to width of container - .card all of the 20%*/
+    height: 180px;
+}
+
+h1{
+    text-align: center;
+}
